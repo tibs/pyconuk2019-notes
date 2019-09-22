@@ -45,25 +45,25 @@ an excellent excuse to get out into the open air during the conference.
 Friday
 ======
 
-*Dr Tania Allard* Reproducible Science: The Good, The Bad, The Ugly and The Untold
-----------------------------------------------------------------------------------
+*Dr Tania Allard* - Reproducible Science: The Good, The Bad, The Ugly and The Untold
+------------------------------------------------------------------------------------
 
 *Keynote*
 
 ...
 
-*Ben Nuttall* Astro Pi: Python on the International Space Station
------------------------------------------------------------------
+*Ben Nuttall* - Astro Pi: Python on the International Space Station
+-------------------------------------------------------------------
 
 ...
 
-*David MacIver* You are in a maze of twisty passages
-----------------------------------------------------
+*David MacIver* - You are in a maze of twisty passages
+------------------------------------------------------
 
 ...
 
-*Alex Chan* Sans I/O Programming
---------------------------------
+*Alex Chan* - Sans I/O Programming
+----------------------------------
 
 A useful thing to put on a title slide:
 
@@ -78,23 +78,23 @@ read the beginning of the text, they just see "PLEASE MOVE FOWARD".
 Mention of https://github.com/pyslackers/slack-sansio, a "Python (a)sync Slack
 API library".
 
-*Emanuil Tolev* Awesome live API docs for under-resourced teams
----------------------------------------------------------------
+*Emanuil Tolev* - Awesome live API docs for under-resourced teams
+-----------------------------------------------------------------
 
 ...
 
-*Richard Terry* Syntactic Sugar vs maintainability
---------------------------------------------------
+*Richard Terry* - Syntactic Sugar vs maintainability
+----------------------------------------------------
 
 ...
 
-*Samathy Barratt* Regexplained - Understanding the theory of Regular Expressions
---------------------------------------------------------------------------------
+*Samathy Barratt* - Regexplained - Understanding the theory of Regular Expressions
+----------------------------------------------------------------------------------
 
 ...
 
-*Jacob Unna* Philosophy of Refactoring
---------------------------------------
+*Jacob Unna* - Philosophy of Refactoring
+----------------------------------------
 
 ...
 
@@ -140,21 +140,221 @@ how to use the available libraries.
 Saturday
 ========
 
+*Marlene Mhangami* - Leadership and Identity in the Pan-African Python movement
+-------------------------------------------------------------------------------
+
+*Keynote*
+
 ...
+
+*Chloe Parkes* - Depression in the Workspace: Let's talk
+--------------------------------------------------------
+
+...
+
+*David Sim* - One weird trick for improving your communication
+--------------------------------------------------------------
+
+...
+
+*Alex Chan* - The curb-cut effect
+---------------------------------
+
+This was meant to be a talk entitled "Extracting tabular data from PDFs", but
+the speaker didn't turn up. A couple of alternative talks were proposed (by
+Alex and Q, who just happened to have a talk or two to hand) and the audience
+voted. I'd have been happy with any of the choices, actually, but will never
+grumble at a chance to see a new talk by Alex.
+
+...
+
+*Tom Easterbrook* - Dev on Wheels: The Ultimate Computer Game
+-------------------------------------------------------------
+
+...
+
+*Rebecca Vickery* - The Fastest Way to Learn Data Science
+---------------------------------------------------------
+
+...
+
+*Young coders* - Showcase
+-------------------------
+
+The kids from the Young Coders workshops got to present what they had been
+doing. As always, it is amazing what they get done in the time, and also how
+much they manage to discover the essence of programming.
+
+UKPA AGM
+--------
+
+This must have set a record for getting everything done, formally, in the
+least amount of time possible.
+
+Lightning Talks
+---------------
+
+...
+
+Conference Dinner
+-----------------
+
+I did go to the conference dinner, and as normal I enjoyed it.
+
+Things I regret missing
+-----------------------
+
+I also wanted to see the item by Solveiga Vivian-Griffiths and Natalie
+Jakoimis on "Data Scientist Career Path: How to find your way throught the data
+science maze", because it sounded like it would be interesting. However, it
+clashed with "Dev on Wheels", and I wanted to see Tome Easterbrook present again.
 
 ------------------------------------------------------------------------------
 
 Sunday
 ======
 
+*Cheuk Ting-ho* - Do we have a diversity problem in Python community?
+---------------------------------------------------------------------
+
+*Keynote*
+
+This was a repeat of a keynot from PyLondinium (by the way, I like the fact
+that several items were repeats from that conference, as I think the audience
+didn't overlap an enormouse amount, and it's very nice as a speaker to be able
+to re-use a talk, and refine it). I felt that the talk was a bit smoother in
+this second version.
+
 ...
+
+*Dom Weldon* - Dash: Interactive Visualization Web Apps with no Javascript
+--------------------------------------------------------------------------
+
+...
+
+*Martin O'Hanlon* - Blue Dot - it's a bluetooth dot
+---------------------------------------------------
+
+I must admit I mostly went to this talk because it came before the next two
+talks in the Ferrier Hall that I wanted to see, but I've very glad I did, as
+it was a nicely done introduction to the Blue Dot application, particularly in
+its explanation in the trade-offs that were made.
+
+...
+
+*Yeray Diaz Diaz* - Import as an anti-pattern - Demystifying Dependency Injection in modern Python
+--------------------------------------------------------------------------------------------------
+
+...
+
+*Tobis Kohn* - Here's Your Mistake...
+-------------------------------------
+
+...
+
+*Gil Goncalves* - So you want to be a manager
+---------------------------------------------
+
+Well, no, I don't, but I know people who are *becoming* managers, and I wanted
+to learn what I could maybe do to support them. And this was a very good
+presentation, which I feel anyone who wants to be a manager, *and* anyone who
+knows someone who wants to be a managed, should watch.
+
+...
+
+*Konark Modi* - What do travel, food & health websites have in common? Auditing websites & apps for privacy leaks
+-----------------------------------------------------------------------------------------------------------------
+
+...
+
+
+Lightning Talks
+---------------
+
+...
+
+Things I regret missing
+-----------------------
+
+I wish I'd gotten to the "Python on Hardware" community showcase.
+
+I was very tempted by Hannah Hazi's "Don't Cross the Streams: An Introduction
+to Virtual Environments" - it's the sort of talk that's always useufl, even if
+it might be covering topics that you think you already know all about. And
+Hannah is a good speaker/explainer. I seem to have meant to go to the
+"Benefits of Competition Based Libraries for Beginners in Python", and not
+quite got to that either.
+
+I definitely wanted to go to Thomas Kluyver's "What does PEP 517 mean for
+packaging?", as it's an important part of the progress that Python is trying to
+make in its packaging story. The "Dash" talk just won out, and it wil be
+interesting to watch the video for this to see if I made the right choice.
+
+Since I don't have any notes between the keynote and the "Dash" talk, I think
+I must have been talking to people - that's always a good choice!
+
+I sort-of regret not going to the Code Dojo, because I've not been to a London
+style code dojo before, and because people who did go reported it as great
+fun. But I was definitely beginning to lag by this point, and it was nice just
+to go out to dinner somewhere away from the conference.
 
 ------------------------------------------------------------------------------
 
 Monday
 ======
 
+*Tobias Kunze* - while history: continue
+----------------------------------------
+
+*Keynote*
+
+This was wonderful, not least because the slides were beautiful, and the font
+was wonderfully appropriate.
+
 ...
+
+
+*Hannah Hazi* - Telling Stories with Python and Ren'Py
+------------------------------------------------------
+
+This was the workshop that Hannah "practiced" at the September CamPUG meeting,
+and which I missed. So I rather wanted to go to it, especially as I actually
+had an idea for something to do that might fit the mechanism.
+
+It was great fun, and I now need to find some pictures to illustate the
+"interactive pamphlet" (So you think you might have Divine Right To Be King)
+which I made.
+
+Two groups actually managed to make complete stories, with illustrations: one
+on how to pet a cat (all the pictures of the same cat!), and one on how to get
+to the conference from the railways station (including getting lost near the
+castle). Both of those were very effective.
+
+
+Lightning Talks
+---------------
+
+...
+
+Things I regret missing
+-----------------------
+
+I will watch the video of Nikoleta Glynati's "The Fallacy of Meritocracy",
+which was well reported. She gave a very interesting keynote last year, so I
+expect it to be good. However, I'd missed Hannah's workshop at CamPUG, so that
+won out.
+
+I didn't really consider going to Daniele Procida's "The worlds' cheapest,
+simplest plotter" (and it clashed with the workshop), but the reports of it
+were good (heh, any Daniele talk is likely to be good), so I shall watch it on
+video.
+
+I would also quite like to have seen Carlo Pereira Atencio's talk on "An
+Introduction to Hardware Drived in (Micro)Python".
+
+And I'm sure Shaun Taylor-Morgan did a good job with his Anvil workshop, but I
+can make him give that at CamPUG some time, and I already know I need to play
+with Anvil.
 
 ------------------------------------------------------------------------------
 
