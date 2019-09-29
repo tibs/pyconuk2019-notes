@@ -15,7 +15,10 @@ September (that last day being sprints, which I did not attend this year).
 This was the fourth year in Cardiff City Hall.
 
 It was, as normal, a very good conference, and I think the committee has done
-an amazing job producing it.
+an amazing job producing it. Videos for most talks (if not all) should be up
+on youtube at https://www.youtube.com/channel/UChA9XP_feY1-1oSy2L7acog. I
+recommend going there and browsing. I'd recommend watching the videos for all
+the talks I mention below, but of course I didn't see all of the conference!
 
 *Note:* Last year's conference felt a little weighted towards talks suitable
 for beginners (mind you, that's the first year I've felt that). I think the
@@ -45,10 +48,13 @@ an excellent excuse to get out into the open air during the conference.
 Friday
 ======
 
+As usual, we started with Daniele Procida's introduction to the conference,
+https://www.youtube.com/watch?v=UczxyQMhkhY
+
 *Dr Tania Allard* - Reproducible Science: The Good, The Bad, The Ugly and The Untold
 ------------------------------------------------------------------------------------
 
-*Keynote*
+*Keynote* https://www.youtube.com/watch?v=XOJ_0cwpuw4
 
 I don't have any particular notes on this, which means you should just find
 the video.
@@ -56,13 +62,17 @@ the video.
 *Ben Nuttall* - Astro Pi: Python on the International Space Station
 -------------------------------------------------------------------
 
+https://www.youtube.com/watch?v=xAry28g1N-0
+
 Ben talking about the Astro Pi competitions, and how they work. I imagine this
 covers some of the same material that Ben will have used as the introduction
 to his CamPUG workshop (https://www.meetup.com/CamPUG/events/262369899/),
-which I couldn't get to. Worth watching, though, for an overview of the project.
+which I couldn't get to. Worth watching for an overview of the project.
 
 *David MacIver* - You are in a maze of twisty passages
 ------------------------------------------------------
+
+https://www.youtube.com/watch?v=zlHck7X4F20
 
 David explaining an interesting algorithm, that is actually not normally of
 direct use (because there's usually something obviously more efficient). That
@@ -74,6 +84,8 @@ Not Python specific, worth watching.
 
 *Alex Chan* - Sans I/O Programming
 ----------------------------------
+
+https://www.youtube.com/watch?v=qwTWqy0uPbY
 
 A nice explanation of why separating out the I/O layer from the "business
 logic" (i.e., the bit that does the real work) can lead to good benefits,
@@ -103,6 +115,8 @@ Other notes:
 *Emanuil Tolev* - Awesome live API docs for under-resourced teams
 -----------------------------------------------------------------
 
+https://www.youtube.com/watch?v=vCp8nDgRQOA
+
 Particularly, using live API introspection - i.e., the documentation page for
 the API gives examples and allows you to try them.
 
@@ -125,6 +139,8 @@ Worth rewatching.
 
 *Richard Terry* - Syntactic Sugar vs maintainability
 ----------------------------------------------------
+
+https://www.youtube.com/watch?v=QXkHDLauOlo
 
 How to tread the line between complex code that hides irrelevancies from
 users, and code that is too clever for its own good.
@@ -169,6 +185,8 @@ Slides and resources are at http://radiac.net/pycon2019/
 *Samathy Barratt* - Regexplained - Understanding the theory of Regular Expressions
 ----------------------------------------------------------------------------------
 
+https://www.youtube.com/watch?v=D1vEJ5X13u8
+
 Samathy explained the automata that underly regular expressions, with maths
 (although luckily she explained the maths). I think this was a good
 explanation, and is worth watching if you want to understand why your regular
@@ -178,6 +196,8 @@ Note that this talk is not Python specific.
 
 Lightning talks
 ---------------
+
+https://www.youtube.com/watch?v=-uakKQQuw6k
 
 The lightning talks are *always* worth watching.
 
@@ -237,6 +257,8 @@ not at all sure I'd have *understood* the maths, I agree that this sounds like
 an interestingly different way to go at the issue, rather than just showing
 how to use the available libraries.
 
+(Unfortunately, workshops don't get videoed.)
+
 ------------------------------------------------------------------------------
 
 Saturday
@@ -245,7 +267,7 @@ Saturday
 *Marlene Mhangami* - Leadership and Identity in the Pan-African Python movement
 -------------------------------------------------------------------------------
 
-*Keynote*
+*Keynote* https://www.youtube.com/watch?v=c5sTa4x2o1Y
 
 A very interesting talk by Marelene Mhangami, from Zimbabwe, who was chair of
 PyCon Africa, which took place in August in Ghana.
@@ -263,6 +285,8 @@ I took a few notes to references:
 *Chloe Parkes* - Depression in the Workspace: Let's talk
 --------------------------------------------------------
 
+https://www.youtube.com/watch?v=hBvRPoSbZsg
+
 Chloe, who is one of the conference organisers, talked about her own
 experiences. As such I shan't try to summarise, but suggest you should watch
 the video.
@@ -271,6 +295,8 @@ Chloe did mention the "be kind today" campaign - I found https://bekindtoday.me/
 
 *David Sim* - One weird trick for improving your communication
 --------------------------------------------------------------
+
+https://www.youtube.com/watch?v=kCZUs41SWCQ
 
 This was a good talk, and interesting at a meta-level because I knew some of
 what he was suggesting, but hadn't thought to apply it widely enough. In
@@ -281,6 +307,8 @@ Also, a well structured talk.
 
 *Alex Chan* - The curb-cut effect
 ---------------------------------
+
+https://www.youtube.com/watch?v=-9tqCtf3T9k
 
 This slot was meant to be a talk entitled "Extracting tabular data from PDFs",
 but the speaker didn't turn up. A couple of alternative talks were proposed
@@ -303,6 +331,8 @@ marginalised can make it better for everyone."
 *Tom Easterbrook* - Dev on Wheels: The Ultimate Computer Game
 -------------------------------------------------------------
 
+https://www.youtube.com/watch?v=981j5Bu4Sek
+
 Tom, who is in a powered wheelchair, gave a talk last year on how technology
 could make it easier for disabled people at university, and thus also make
 life better for everyone (`A rising tide lifts all ships`_).
@@ -314,6 +344,8 @@ and slides on the video are OK, but it doesn't show Tom himself.
 
 *Rebecca Vickery* - The Fastest Way to Learn Data Science
 ---------------------------------------------------------
+
+https://www.youtube.com/watch?v=b2NBZYiWf2w
 
 The first half of the talk was about how to organise becoming (for instance) a
 data scientist. The importance of setting goals, but goals that are relevant
@@ -334,11 +366,15 @@ much they manage to discover the essence of programming.
 UKPA AGM
 --------
 
+https://www.youtube.com/watch?v=J3S3Ng9xNN4
+
 This must have set a record for getting everything done, formally, in the
 least amount of time possible.
 
 Lightning Talks
 ---------------
+
+https://www.youtube.com/watch?v=wi-7YIFm3Vo
 
 Still worth watching. Still with tractor jokes.
 
@@ -390,7 +426,7 @@ I also wanted to see
   PEP 8". It might sound like I should know everything in a talk like this,
   but it's often worth going over territory you think you know, and it's not
   unusual to discover something you did not in fact know, or had not thought
-  of.
+  of. https://www.youtube.com/watch?v=5zrlZGyEwMM
 
 ------------------------------------------------------------------------------
 
@@ -400,7 +436,7 @@ Sunday
 *Cheuk Ting-ho* - Do we have a diversity problem in Python community?
 ---------------------------------------------------------------------
 
-*Keynote*
+*Keynote* https://www.youtube.com/watch?v=g68eJwauOww
 
 This was a repeat of a keynote from PyLondinium (by the way, I like the fact
 that several items were repeats from that conference, as I think the audience
@@ -410,6 +446,8 @@ this second version.
 
 *Dom Weldon* - Dash: Interactive Visualization Web Apps with no Javascript
 --------------------------------------------------------------------------
+
+https://www.youtube.com/watch?v=L7xYBZ8JatE
 
 Dom Weldon works at decisionLab, who use mathematical models to build tools
 to help businesses. They use Dash for Proof of Concept tasks.
@@ -432,6 +470,8 @@ Taylor-Morgan in his later talk.
 *Martin O'Hanlon* - Blue Dot - it's a bluetooth dot
 ---------------------------------------------------
 
+https://www.youtube.com/watch?v=hmDAqvoDlp0
+
 I must admit I mostly went to this talk because it came before the next two
 talks in the Ferrier Hall that I wanted to see, but I've very glad I did, as
 it was a nicely done introduction to the Blue Dot application, particularly in
@@ -448,6 +488,8 @@ bluetooth.
 
 *Yeray Diaz Diaz* - Import as an anti-pattern - Demystifying Dependency Injection in modern Python
 --------------------------------------------------------------------------------------------------
+
+https://www.youtube.com/watch?v=qkGxy4c64Jg
 
 This was a very nicely done talk. It's also interesting how Alex Chan's talk
 on sans I/O programming addresses a subset of the concerns of this talk.
@@ -475,6 +517,8 @@ Rererences, all of which look very well worth following up:
 *Tobis Kohn* - Here's Your Mistake...
 -------------------------------------
 
+https://www.youtube.com/watch?v=7gMOaWdzDSw
+
 Ths was another very nice talk.
 
 The speaker is a Research Associate at Cambridge University, but his
@@ -491,6 +535,8 @@ The tool he refers to is TigerJython - see http://www.jython.tobiaskohn.ch/
 *Gil Goncalves* - So you want to be a manager
 ---------------------------------------------
 
+https://www.youtube.com/watch?v=5SyZSvSpax8
+
 Well, no, I don't, but I know people who are *becoming* managers, and I wanted
 to learn what I could maybe do to support them. And this was a very good
 presentation, which I feel anyone who wants to be a manager, *and* anyone who
@@ -505,6 +551,8 @@ Recommended reading:
   
 *Konark Modi* - What do travel, food & health websites have in common? Auditing websites & apps for privacy leaks
 -----------------------------------------------------------------------------------------------------------------
+
+https://www.youtube.com/watch?v=oGb8dM-K0AU
 
 An interesting talk. I made notes of some links (probably not all those
 given):
@@ -522,6 +570,8 @@ There are related articles by Konark Modi at https://medium.com/@konarkmodi
 Lightning Talks
 ---------------
 
+https://www.youtube.com/watch?v=y_lLsAEsf2A
+
 As ever, watch the lightning talks.
 
 * Shaun Taylor-Morgan: How growing vegetables makes me a better programmer: on
@@ -537,12 +587,13 @@ to Virtual Environments" - it's another of the sort of talk that's always
 useful, even if it might be covering topics that you think you already know
 all about. And Hannah is a good speaker/explainer. I seem to have meant to go
 to the "Benefits of Competition Based Libraries for Beginners in Python", and
-not quite got to that either.
+not quite got to that either. https://www.youtube.com/watch?v=T-zaepH-lHc
 
 I definitely wanted to go to Thomas Kluyver's "What does PEP 517 mean for
 packaging?", as it's an important part of the progress that Python is trying to
 make in its packaging story. The "Dash" talk just won out, and it wil be
 interesting to watch the video for this to see if I made the right choice.
+https://www.youtube.com/watch?v=s5lJsFzv_iI
 
 Since I don't have any notes between the keynote and the "Dash" talk, I think
 I must have been talking to people - that's always a good choice!
@@ -560,7 +611,7 @@ Monday
 *Tobias Kunze* - while history: continue
 ----------------------------------------
 
-*Keynote*
+*Keynote* https://www.youtube.com/watch?v=Cup-GHdKJvQ
 
 This was wonderful, not least because the slides were beautiful, and the font
 was wonderfully appropriate.
@@ -594,6 +645,8 @@ castle). Both of those were very effective.
 *Vishnu Anirudh* - Managing Big Data in Machine Learning projects
 -----------------------------------------------------------------
 
+https://www.youtube.com/watch?v=4XpHk85_x0E1G
+
 The speaker works for oxbotica, an autonomous vehicle startup. They have to
 deal with 4TB/car/day of compressed data.
 
@@ -605,6 +658,8 @@ Stores data "in the cloud".
 
 *Shaun Taylor-Morgan* - Python in the Browser
 ---------------------------------------------
+
+https://www.youtube.com/watch?v=QiqiPeXVKQg
 
 Shaun is an ex-colleague who now works for Anvil_. He talked about 6
 more-or-less representative examples of Python in the Browser that have some
@@ -625,6 +680,8 @@ examples of doing Python (in the browser) - this seems to be another use of Skul
 
 *Richard Izzo* - Hangar; git for your data
 ------------------------------------------
+
+https://www.youtube.com/watch?v=t35wB-R6mr4
 
 This solution is aimed at *numerical* data rather than textual - i.e., big
 data, etc.. But not specifically machine learning.
@@ -662,7 +719,7 @@ what Calibre does for ebooks - but that might be a poor analogy.)
 Lightning Talks
 ---------------
 
-Before the lightning talks, some announcements:
+Before the lightning talks, there were some announcements:
 
 * Remember to tell people there's a creche each year, and it's free
 * Daniele stepping down as conference directory, next year will be Kristian
@@ -670,7 +727,11 @@ Before the lightning talks, some announcements:
   
 And a nice quote from Daniele "I like to think of myself as sinister but honest"
 
-On to the lightning talks. Apologies if I missed anything, or got names wrong.
+On to the lightning talks.
+
+https://www.youtube.com/watch?v=d1vJjM9Kn7A
+
+Apologies if I missed anything, or got names wrong.
 
 * Thomas Kluyver: (borg backup) content addressable
   storage. https://www.borgbackup.org/. Looks interesting.
@@ -697,7 +758,7 @@ On to the lightning talks. Apologies if I missed anything, or got names wrong.
 * David: Fractals and numpy: printing to draw julia sets
 
 And we were then led in dancing by Chloe in her cowboy/horse costume, and the
-(non-sprint part of the) conference came to its end.
+(non-sprint part of the) conference came to its end: https://www.youtube.com/watch?v=ackJTE8ZTqM
 
 
 Things I regret missing
@@ -706,15 +767,15 @@ Things I regret missing
 I will watch the video of Nikoleta Glynati's "The Fallacy of Meritocracy",
 which was well reported. She gave a very interesting keynote last year, so I
 expect it to be good. However, I'd missed Hannah's workshop at CamPUG, so that
-won out.
+won out. https://www.youtube.com/watch?v=aYSVceNyJ201g
 
 I didn't really consider going to Daniele Procida's "The worlds' cheapest,
 simplest plotter" (and it clashed with the workshop), but the reports of it
 were good (heh, any Daniele talk is likely to be good), so I shall watch it on
-video.
+video. https://www.youtube.com/watch?v=u4Jh1daCl60
 
 I would also quite like to have seen Carlo Pereira Atencio's talk on "An
-Introduction to Hardware Drived in (Micro)Python".
+Introduction to Hardware Drived in (Micro)Python". https://www.youtube.com/watch?v=0HQ-zPbuWg4
 
 And I'm sure Shaun Taylor-Morgan did a good job with his Anvil workshop, but I
 can make him give that at CamPUG some time, and I already know I need to play
