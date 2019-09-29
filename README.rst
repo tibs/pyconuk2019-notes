@@ -50,61 +50,163 @@ Friday
 
 *Keynote*
 
-...
+I don't have any particular notes on this, which means you should just find
+the video.
 
 *Ben Nuttall* - Astro Pi: Python on the International Space Station
 -------------------------------------------------------------------
 
-...
+Ben talking about the Astro Pi competitions, and how they work. I imagine this
+covers some of the same material that Ben will have used as the introduction
+to his CamPUG workshop (https://www.meetup.com/CamPUG/events/262369899/),
+which I couldn't get to. Worth watching, though, for an overview of the project.
 
 *David MacIver* - You are in a maze of twisty passages
 ------------------------------------------------------
 
-...
+David explaining an interesting algorithm, that is actually not normally of
+direct use (because there's usually something obviously more efficient). That
+doesn't mean it's not worth knowing about, though, and it was still a very
+nice talk, with good use of visual to explain things. It left me with a
+curious urge to want to implement the algorithm.
+
+Not Python specific, worth watching.
 
 *Alex Chan* - Sans I/O Programming
 ----------------------------------
 
-A useful thing to put on a title slide:
+A nice explanation of why separating out the I/O layer from the "business
+logic" (i.e., the bit that does the real work) can lead to good benefits,
+including better generalisability, easier testing and other things.
 
-  If you can't see this PLEASE MOVE FORWARD
+Whilst the examples are in Python, the concept is not Python specific, and is
+a good one. It was also interesting to see similar ideas reflected in other
+items.
 
-where the first words are the size of most of your text, and the last words
-are big enough people will *definitely* be able to see them - so if they can't
-read the beginning of the text, they just see "PLEASE MOVE FOWARD".
+The "home page" for the talk is at https://alexwlchan.net/2019/09/slides-for-pycon-uk-2019/
+and includes links to the slides (as PDF), the video (when it gets uploaded)
+and other useful related links.
 
-...
+Other notes:
 
-Mention of https://github.com/pyslackers/slack-sansio, a "Python (a)sync Slack
-API library".
+* A useful thing to put on a title slide:
+
+    If you can't see this PLEASE MOVE FORWARD
+
+  where the first words are the size of most of your text, and the last words
+  are big enough people will *definitely* be able to see them - so if they
+  can't read the beginning of the text, they just see "PLEASE MOVE FOWARD".
+
+* Mention of https://github.com/pyslackers/slack-sansio, a "Python (a)sync
+  Slack API library", which feels like it might be useful some time.
 
 *Emanuil Tolev* - Awesome live API docs for under-resourced teams
 -----------------------------------------------------------------
 
-...
+Particularly, using live API introspection - i.e., the documentation page for
+the API gives examples and allows you to try them.
+
+He mentioned:
+
+* https://reqres.in/, which provides "mocking your API as a service" - not a
+  use case I'd considered, and interesting to look at.
+* NASA - if you've got no time available, at least give good examples, and
+  also this one is live
+* Digital Ocean provide documentation with examples of usage alongside
+* Strip also provide documentation with examples (and example results)
+
+Providing examples alongside your documentation is a lot of work, but very
+valuable to users.
+
+He also mentioned swagger-js (https://github.com/swagger-api/swagger-js) and
+specifically swagger-ui (https://github.com/swagger-api/swagger-ui).
+
+Worth rewatching.
 
 *Richard Terry* - Syntactic Sugar vs maintainability
 ----------------------------------------------------
 
-...
+How to tread the line between complex code that hides irrelevancies from
+users, and code that is too clever for its own good.
+
+This was a very good talk.
+
+metaclasses - basically just invisible decorators for your classes.
+
+He gave django-tagulous_ (his own library) as an example, of everything you
+should, and should not, do.
+
+Basically he's trying to make the common case very easy, with enought tests to
+guaranteee that it isn't going to fall over, because if it does the tracebacks
+are going to be incomprehensible.
+
+...swapping the class of an instantiated object...
+
+As an example that clearly goes too far: another of his libraries,
+python-perl_, which implements Perl regex support in Python:
+
+.. code:: python
+
+    $ pip install perl
+    $ python
+    >>> import perl
+    >>> value = "Hello there"
+    >>> if value =~ /^hello (.+?)$/i:
+    ...     print("Found greeting:", $1)
+    ...
+    Found greeting: there
+    >>> value =~ s/there/world/
+    >>> print(value)
+    Hello world
+
+Not meant for use in production!
+
+.. _django-tagulous: http://radiac.net/projects/django-tagulous/
+.. _python-perl: http://radiac.net/projects/python-perl/)
+
+Slides and resources are at http://radiac.net/pycon2019/
 
 *Samathy Barratt* - Regexplained - Understanding the theory of Regular Expressions
 ----------------------------------------------------------------------------------
 
-...
+Samathy explained the automata that underly regular expressions, with maths
+(although luckily she explained the maths). I think this was a good
+explanation, and is worth watching if you want to understand why your regular
+expressions do what they do.
 
-*Jacob Unna* - Philosophy of Refactoring
-----------------------------------------
-
-...
+Note that this talk is not Python specific.
 
 Lightning talks
 ---------------
 
-...
+The lightning talks are *always* worth watching.
+
+Presented and organised this year, as last, by Mark (judy2k) Smith. With
+tractor jokes.
+
+I don't promise this list is accurate:
+
+* Gail Ollis: max credibility -> fake beard (and "``max``" not ``min``)
+* Daniel Pope: playing with numpy and images. Introducing his new numpy-based
+  opengl game library: https://github.com/lordmauve/wasabi2d
+* Noel: ASMR for devs
+* Fero Hajnovic: Python for good in the Office for National Statistics
+* Alex Chan: A robot stole my job! (prospects) - using auto-release mechanisms
+  for *everything*
+* David MacIver: How to have great conversations (or meetings) - see also
+  http://www.liberatingstructures.com/ and http://bit.ly/DRMacIverTickTalk
+  (which dereferences as https://github.com/DRMacIver/systems/blob/master/tempo.md).
+* Cheuk Ting-ho: Running an open source project is like running a startup
+* Rob Bricheno: Fantastic bots and where to find them - PiWars and piwarbots,
+  https://piwars.org/
+* Gil Goncalves: Rolling dice with Python, https://github.com/LuRsT/dragn
+* How to do your job well
 
 Board games and manual technology evening
 =========================================
+
+Most evenings PyCon UK organises something to do at the City Hall. Friday's
+event was games and manual technology.
 
 This year I played games, rather than trying to learn crochet.
 
@@ -145,38 +247,82 @@ Saturday
 
 *Keynote*
 
-...
+A very interesting talk by Marelene Mhangami, from Zimbabwe, who was chair of
+PyCon Africa, which took place in August in Ghana.
+
+I took a few notes to references:
+
+* Evan Czaplicki: The Hard Parts of Open Source (a strangeloop talk by the
+  creator of Elm) https://www.youtube.com/watch?v=o_4EX4dPppA
+* Leaders as weavers - warp and weft, a good leader can combine these to form
+  a garment. This is a metaphor from the later works of Plato, specifically
+  "The Statesmen".
+* Sharing (conference) tickets - buying a ticket for someone who otherwise
+  would not be able to attend. This is something PyCon Africa let people do.248G
 
 *Chloe Parkes* - Depression in the Workspace: Let's talk
 --------------------------------------------------------
 
-...
+Chloe, who is one of the conference organisers, talked about her own
+experiences. As such I shan't try to summarise, but suggest you should watch
+the video.
+
+Chloe did mention the "be kind today" campaign - I found https://bekindtoday.me/
 
 *David Sim* - One weird trick for improving your communication
 --------------------------------------------------------------
 
-...
+This was a good talk, and interesting at a meta-level because I knew some of
+what he was suggesting, but hadn't thought to apply it widely enough. In
+drastic summary: consider what you want the person to do as a result of your
+communication.
+
+Also, a well structured talk.
 
 *Alex Chan* - The curb-cut effect
 ---------------------------------
 
-This was meant to be a talk entitled "Extracting tabular data from PDFs", but
-the speaker didn't turn up. A couple of alternative talks were proposed (by
-Alex and Q, who just happened to have a talk or two to hand) and the audience
-voted. I'd have been happy with any of the choices, actually, but will never
-grumble at a chance to see a new talk by Alex.
+This slot was meant to be a talk entitled "Extracting tabular data from PDFs",
+but the speaker didn't turn up. A couple of alternative talks were proposed
+(by Alex and Q, who just happened to have a talk or two to hand) and the
+audience voted. I'd have been happy with any of the choices, actually, but
+will never grumble at a chance to see a new talk by Alex.
 
-...
+The example of (one story of) the origin of "curb cuts", lowered curbs for
+wheelchair users and people who can't do steps, was given, along with the
+benefits that this had for people who were not from the original target
+population.
+
+Basically, making things better for (e.g.) disabled people can end up making
+things better for everybody. Which means that designing from scratch with
+disabled people in mind will often be better for everybody.
+
+Or, more generally "making something better for people who are excluded or
+marginalised can make it better for everyone."
 
 *Tom Easterbrook* - Dev on Wheels: The Ultimate Computer Game
 -------------------------------------------------------------
 
-...
+Tom, who is in a powered wheelchair, gave a talk last year on how technology
+could make it easier for disabled people at university, and thus also make
+life better for everyone (`A rising tide lifts all ships`_).
+
+This year he reported back on how he managed his degree as a whole. The audio
+and slides on the video are OK, but it doesn't show Tom himself.
+
+.. _`A rising tide lifts all ships`: https://www.youtube.com/watch?v=TyQTCEGrui4
 
 *Rebecca Vickery* - The Fastest Way to Learn Data Science
 ---------------------------------------------------------
 
-...
+The first half of the talk was about how to organise becoming (for instance) a
+data scientist. The importance of setting goals, but goals that are relevant
+to what you want to do. The learn -> build -> explain loop (which sounds
+reminiscent of the doctor's learning method, "see one, do one, teach one").
+
+She recommends DataQuest (https://www.dataquest.io/) as a part of this.
+
+I thought this was a realistic and well presented approach.
 
 *Young coders* - Showcase
 -------------------------
@@ -194,20 +340,57 @@ least amount of time possible.
 Lightning Talks
 ---------------
 
-...
+Still worth watching. Still with tractor jokes.
+
+* Connor Shearwood: We are not going to space today - an abridged history of
+  (some mistakes and funny incidents in) space exploration
+* Amber Wright: learning CLI through your browser,
+  https://www.katacoda.com/amblina/ and
+  https://github.com/amblina/katacoda-scenarios. "safe environments for
+  learning something scary".
+* Becky Smith: Programming in loops: knitting, and its parallels to
+  programming. "If you want to teach, learn".
+* Rachel Taylor: To flush or not to flush: what not to put down the toilet.
+* Sam: How to make use of ``__getattr__`` to make your modules more
+  interesting.
+* Luis Ferro: Are you a software developer?
+* Kirk Northrop: :sea: :gull: :fly: - the chances of a seagull pooing on you
+  during PyCon. Beautifully done pseudo-statistics.
+* Darren: What I learned from Bob. The presented plays bass for Mungo Jerry
+  (Ray) in his spare time, and this was a story about another member of the
+  band and why he was late for gigs,
+* Jenny Potts: Coding with security in mind
+* Sean Sabbage: Are you choking? or are you serious? - another of Sean's
+  series of lightning talks at PyCon UK on first aid.
 
 Conference Dinner
 -----------------
 
 I did go to the conference dinner, and as normal I enjoyed it.
 
+I don't have a note of everyone at the table, but I know there were Ben
+Nuttall, Daniel Pope, RAob Bricheno, David Spademan and Luke Spademan.
+
+David Spademan is a prison chaplain, who always explains that he comes to
+PyCon UK to keep his son, Luke, company, but he's definitely a part of the
+community now, and the AGM brought him on to the board of trustees. Also, he
+introduced me to more than one person from Cambridge who I didn't know!
+
 Things I regret missing
 -----------------------
 
-I also wanted to see the item by Solveiga Vivian-Griffiths and Natalie
-Jakoimis on "Data Scientist Career Path: How to find your way throught the data
-science maze", because it sounded like it would be interesting. However, it
-clashed with "Dev on Wheels", and I wanted to see Tome Easterbrook present again.
+I also wanted to see
+
+* Solveiga Vivian-Griffiths and Natalie Jakoimis on "Data Scientist Career
+  Path: How to find your way throught the data science maze", because it
+  sounded like it would be interesting. However, it clashed with "Dev on
+  Wheels", and I wanted to see Tome Easterbrook present again.
+
+* the aforementioned Luke Spademan on "Writing Beautiful Code: An overview of
+  PEP 8". It might sound like I should know everything in a talk like this,
+  but it's often worth going over territory you think you know, and it's not
+  unusual to discover something you did not in fact know, or had not thought
+  of.
 
 ------------------------------------------------------------------------------
 
@@ -219,18 +402,32 @@ Sunday
 
 *Keynote*
 
-This was a repeat of a keynot from PyLondinium (by the way, I like the fact
+This was a repeat of a keynote from PyLondinium (by the way, I like the fact
 that several items were repeats from that conference, as I think the audience
 didn't overlap an enormouse amount, and it's very nice as a speaker to be able
 to re-use a talk, and refine it). I felt that the talk was a bit smoother in
 this second version.
 
-...
-
 *Dom Weldon* - Dash: Interactive Visualization Web Apps with no Javascript
 --------------------------------------------------------------------------
 
-...
+Dom Weldon works at decisionLab, who use mathematical models to build tools
+to help businesses. They use Dash for Proof of Concept tasks.
+
+Dash is Python wrapped around React, allowing you to do interactive data
+visualisation without needing to know javascript.
+
+The talk gave a quick introduction to Dash, and then went over their
+experience of using it, including what it was good for, and when not to use it.
+
+The basic idea is that a data scientist should be able to take the lead
+writing a prototype web app, without needing to involve someone who
+understands how to write the front end in javascript.
+
+The examples for the talk are on github, https://github.com/DomWeldon
+
+This is an interesting complement to the approaches described by Shaun
+Taylor-Morgan in his later talk.
 
 *Martin O'Hanlon* - Blue Dot - it's a bluetooth dot
 ---------------------------------------------------
@@ -238,19 +435,58 @@ this second version.
 I must admit I mostly went to this talk because it came before the next two
 talks in the Ferrier Hall that I wanted to see, but I've very glad I did, as
 it was a nicely done introduction to the Blue Dot application, particularly in
-its explanation in the trade-offs that were made.
+its explanation in the trade-offs that were made (for instance, why they don't
+provide an iOS app at this stage).
 
-...
+See https://bluedot.readthedocs.io/en/latest/ and
+https://github.com/martinohanlon/BlueDot for BlueDot itself, and there's a
+useful API within that (btcomm_) for sending and receiving data over
+bluetooth.
+
+.. _btcomm: https://bluedot.readthedocs.io/en/latest/btcommapi.html
+
 
 *Yeray Diaz Diaz* - Import as an anti-pattern - Demystifying Dependency Injection in modern Python
 --------------------------------------------------------------------------------------------------
 
-...
+This was a very nicely done talk. It's also interesting how Alex Chan's talk
+on sans I/O programming addresses a subset of the concerns of this talk.
+
+Also, and especially, it is a useful reference to the computer science names
+for various concepts that we deal with in our work - starting with "dependency
+injection" itself.
+
+Rererences, all of which look very well worth following up:
+
+* `Dependency Injection`_ by Dhanji R. Prasanna, published by Manning, and
+  available to read free.
+* `95 Bottles of OOP`_ by Sandi Metz and Katrina Owen. The examples are given
+  in Ruby (which I for one find interesting! - Sandi Metz is well known as a
+  good writer in the Ruby world, and in particula her book "Practical
+  Object-Oriented Design" is very good).
+* Boundaries_, a talk by Gary Bernhardt "about using simple values (as opposed
+  to complex objects) not just for holding data, but also as the boundaries
+  between components and subsystems."
+
+.. _`Dependency Injection`: https://www.manning.com/books/dependency-injection
+.. _`95 Bottles of OOP`: https://www.sandimetz.com/99bottles
+.. _Boundaries: https://www.destroyallsoftware.com/talks/boundaries
 
 *Tobis Kohn* - Here's Your Mistake...
 -------------------------------------
 
-...
+Ths was another very nice talk.
+
+The speaker is a Research Associate at Cambridge University, but his
+background is in teaching children to program, particularly in Python. This
+led him to consider what syntax errors new programmers commonly make, and how
+to improve the error messages that they get. However, his argument is also
+that some of the "syntax errors" are actually a lack of understanding of the
+concepts, and those also need fixing.
+
+That's a terrible summary of a very clear talk, which I recommend watching.
+
+The tool he refers to is TigerJython - see http://www.jython.tobiaskohn.ch/
 
 *Gil Goncalves* - So you want to be a manager
 ---------------------------------------------
@@ -260,18 +496,36 @@ to learn what I could maybe do to support them. And this was a very good
 presentation, which I feel anyone who wants to be a manager, *and* anyone who
 knows someone who wants to be a managed, should watch.
 
-...
+Recommended reading:
 
+* `The Manager's Path`_ by Camille Fournier, which Gil says everyone should read
+* "Managing Humans" by Michael Lopp - humorous stories about managing people 
+
+.. _`The Manager's Path`: https://www.oreilly.com/library/view/the-managers-path/9781491973882/
+  
 *Konark Modi* - What do travel, food & health websites have in common? Auditing websites & apps for privacy leaks
 -----------------------------------------------------------------------------------------------------------------
 
-...
+An interesting talk. I made notes of some links (probably not all those
+given):
+
+* https://whotracks.me/
+* https://mitmproxy.org/
+* LocalSherriff_ is a browser extension that works out what information about
+  you is being leaked/shared. It uses mitmproxy.
+
+.. _LocalSherriff: https://github.com/cliqz-oss/local-sheriff
+
+There are related articles by Konark Modi at https://medium.com/@konarkmodi
 
 
 Lightning Talks
 ---------------
 
-...
+As ever, watch the lightning talks.
+
+* Shaun Taylor-Morgan: How growing vegetables makes me a better programmer: on
+  the benefits of having an allotment.
 
 Things I regret missing
 -----------------------
@@ -279,11 +533,11 @@ Things I regret missing
 I wish I'd gotten to the "Python on Hardware" community showcase.
 
 I was very tempted by Hannah Hazi's "Don't Cross the Streams: An Introduction
-to Virtual Environments" - it's the sort of talk that's always useufl, even if
-it might be covering topics that you think you already know all about. And
-Hannah is a good speaker/explainer. I seem to have meant to go to the
-"Benefits of Competition Based Libraries for Beginners in Python", and not
-quite got to that either.
+to Virtual Environments" - it's another of the sort of talk that's always
+useful, even if it might be covering topics that you think you already know
+all about. And Hannah is a good speaker/explainer. I seem to have meant to go
+to the "Benefits of Competition Based Libraries for Beginners in Python", and
+not quite got to that either.
 
 I definitely wanted to go to Thomas Kluyver's "What does PEP 517 mean for
 packaging?", as it's an important part of the progress that Python is trying to
@@ -311,7 +565,14 @@ Monday
 This was wonderful, not least because the slides were beautiful, and the font
 was wonderfully appropriate.
 
-...
+The history presented was interesting, and well explained, but also acted as a
+reflection on the Python 2 to 3 transition!
+
+NB: in passing, I should mention the blog "Going Medieval",
+https://going-medieval.com/, which gets particularly irritated at use of the
+term "The Dark Ages" to mean a time of ignorance and stagnation. Specifically,
+see
+https://going-medieval.com/2017/05/26/theres-no-such-thing-as-the-dark-ages-but-ok/
 
 
 *Hannah Hazi* - Telling Stories with Python and Ren'Py
@@ -330,11 +591,114 @@ on how to pet a cat (all the pictures of the same cat!), and one on how to get
 to the conference from the railways station (including getting lost near the
 castle). Both of those were very effective.
 
+*Vishnu Anirudh* - Managing Big Data in Machine Learning projects
+-----------------------------------------------------------------
+
+The speaker works for oxbotica, an autonomous vehicle startup. They have to
+deal with 4TB/car/day of compressed data.
+
+The talk was about https://dvc.org/, data version control, a VCS for ML
+projects. Since it is domain specific, it also handles the organisation of the
+project, and can manage/run pipelines as well.
+
+Stores data "in the cloud".
+
+*Shaun Taylor-Morgan* - Python in the Browser
+---------------------------------------------
+
+Shaun is an ex-colleague who now works for Anvil_. He talked about 6
+more-or-less representative examples of Python in the Browser that have some
+maturity/stability.
+
+This was the talk I'd hoped for from the title and abstract - a good overview
+of the field. And an interesting contrast to the talk on Dash earlier in the
+conference.
+
+(Anvil use, and contribute to, Skulpt_, which was one of the solutions
+discussed.)
+
+.. _Anvil: https://anvil.works/
+.. _Skulpt: http://skulpt.org/
+
+I wrote down a reference to http://hourofpython.trinket.io, as showing
+examples of doing Python (in the browser) - this seems to be another use of Skulpt.
+
+*Richard Izzo* - Hangar; git for your data
+------------------------------------------
+
+This solution is aimed at *numerical* data rather than textual - i.e., big
+data, etc.. But not specifically machine learning.
+
+* efficiently store n-dimensional arrays
+* time travel history
+* integrity of data and history
+* zero cost branch/merge
+* distribution and collaboration
+* *partial* clone/fetch small parts of massive datasets
+* able to saturate request at various scales
+* simple to use
+
+Separate out the types of data, and don't try to treat them all the same. If
+you need to retrieve the book-keeping part of the information, you don't need
+to retrieve the actual (very large) data itself.
+
+I *think* it sounded like you need to give up direct access to the big data -
+in other words, allow hangar to have complete control of it. That's not
+necessarily a bad thing.
+  
+They're still working on adding backend storage mechanisms, but have a
+good/useful subset so far.
+
+There's an API, inspired by git, but looks decent. NB: humans are not the main
+consumers of data.
+
+The fundamental ideas did sound well thought out, as he present it.
+
+https://github.com/tensorwerk/hangar-py
+
+(I thought to myself that Hangar feels a bit like it is doing for big data
+what Calibre does for ebooks - but that might be a poor analogy.)
 
 Lightning Talks
 ---------------
 
-...
+Before the lightning talks, some announcements:
+
+* Remember to tell people there's a creche each year, and it's free
+* Daniele stepping down as conference directory, next year will be Kristian
+  Glass.
+  
+And a nice quote from Daniele "I like to think of myself as sinister but honest"
+
+On to the lightning talks. Apologies if I missed anything, or got names wrong.
+
+* Thomas Kluyver: (borg backup) content addressable
+  storage. https://www.borgbackup.org/. Looks interesting.
+* Little Anonymous: Python mailing system: I wrote puubin.io, but that doesn't
+  seem to exist.
+* Turn on SSL and verify certs
+* John Chandler: Everything I've learnt from Russell Winder talks, in 5
+  minutes (A tribute). Very nice if you know Russell, who wasn't at the
+  conference this year.
+* Maraina: Songs from last night: a practical guide to GDPR data access
+  requests. A group of friends were playing music using spotify, and did not
+  have a record of the playlist. They were able to make a GDPR request to get
+  it (re)constructed for them. See also https://gooddatamovement.org/
+* Mike Grochmal: Does correlatio lie to us?
+* Alex: Turning the UK off and on again (inspired by actual lightning)
+* Python Turkey: Istanbul, April 2020, http://tr.pycon.org/
+* Daniele and Marlene: Report on PyCon Africa 2019, https://africa.pycon.org/report/
+* Glen: Escape Rooms with some Python
+* Jan Freyberg: Collaborating with your model in Python
+* Domninic Oram: The climate crisis and one not-so-easy thing you can do about
+  it. https://climatestrike.org/, extinction/rebellion https://rebellion.earth/
+* Emma and friends: live flappy bird! Pygame, microbits and crocheted gloves
+* Andrew Bennett: From panic to presenting
+* David: Fractals and numpy: printing to draw julia sets
+
+And we were then led in dancing by Chloe in her cowboy/horse costume, and the
+(non-sprint part of the) conference came to its end.
+
 
 Things I regret missing
 -----------------------
