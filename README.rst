@@ -2,13 +2,6 @@
 Notes on PyCon UK 2019
 ======================
 
-*Still to be finished. I need to:*
-
-* *Finish writing up what I went to*
-* *Finish witing up what I'd like to have gone to*
-* *Put in links to slides, videos, etc.*
-* *Add any other notes that seem appropriate*
-
 `PyCon UK 2019`_ was held in Cardiff from Friday 13th to Tuesday 17th
 September (that last day being sprints, which I did not attend this year).
 
@@ -19,6 +12,11 @@ an amazing job producing it. Videos for most talks (if not all) should be up
 on youtube at https://www.youtube.com/channel/UChA9XP_feY1-1oSy2L7acog. I
 recommend going there and browsing. I'd recommend watching the videos for all
 the talks I mention below, but of course I didn't see all of the conference!
+
+For each talk mentioned below, I give a link to the corresponding video
+(they're all up already!), and a link to slides/notes where I had it - mostly
+because the speaker posted the link on the conference slack. I don't promise
+to have seen/noticed all of those.
 
 *Note:* Last year's conference felt a little weighted towards talks suitable
 for beginners (mind you, that's the first year I've felt that). I think the
@@ -56,6 +54,8 @@ https://www.youtube.com/watch?v=UczxyQMhkhY
 
 *Keynote* https://www.youtube.com/watch?v=XOJ_0cwpuw4
 
+https://speakerdeck.com/trallard/reproducible-science-the-good-the-bad-the-ugly-and-the-untold
+
 I don't have any particular notes on this, which means you should just find
 the video.
 
@@ -87,6 +87,8 @@ Not Python specific, worth watching.
 
 https://www.youtube.com/watch?v=qwTWqy0uPbY
 
+https://alexwlchan.net/2019/09/slides-for-pycon-uk-2019/
+
 A nice explanation of why separating out the I/O layer from the "business
 logic" (i.e., the bit that does the real work) can lead to good benefits,
 including better generalisability, easier testing and other things.
@@ -94,10 +96,6 @@ including better generalisability, easier testing and other things.
 Whilst the examples are in Python, the concept is not Python specific, and is
 a good one. It was also interesting to see similar ideas reflected in other
 items.
-
-The "home page" for the talk is at https://alexwlchan.net/2019/09/slides-for-pycon-uk-2019/
-and includes links to the slides (as PDF), the video (when it gets uploaded)
-and other useful related links.
 
 Other notes:
 
@@ -142,6 +140,8 @@ Worth rewatching.
 
 https://www.youtube.com/watch?v=QXkHDLauOlo
 
+http://radiac.net/pycon2019/
+
 How to tread the line between complex code that hides irrelevancies from
 users, and code that is too clever for its own good.
 
@@ -180,12 +180,12 @@ Not meant for use in production!
 .. _django-tagulous: http://radiac.net/projects/django-tagulous/
 .. _python-perl: http://radiac.net/projects/python-perl/)
 
-Slides and resources are at http://radiac.net/pycon2019/
-
 *Samathy Barratt* - Regexplained - Understanding the theory of Regular Expressions
 ----------------------------------------------------------------------------------
 
 https://www.youtube.com/watch?v=D1vEJ5X13u8
+
+http://github.com/samathy/regexplained
 
 Samathy explained the automata that underly regular expressions, with maths
 (although luckily she explained the maths). I think this was a good
@@ -257,7 +257,12 @@ not at all sure I'd have *understood* the maths, I agree that this sounds like
 an interestingly different way to go at the issue, rather than just showing
 how to use the available libraries.
 
-(Unfortunately, workshops don't get videoed.)
+Unfortunately, workshops don't get videoed, but the the Jupyter notebooks for
+the workshop are at https://github.com/grochmal/nnag
+
+(I shall try to mention things I *know* I would like to have seen, but of
+course I shall be missing things that I didn't know would have been
+worthwhile. Unfortunatley, that's the sign of a good conference.)
 
 ------------------------------------------------------------------------------
 
@@ -309,6 +314,8 @@ Also, a well structured talk.
 ---------------------------------
 
 https://www.youtube.com/watch?v=-9tqCtf3T9k
+
+https://alexwlchan.net/2019/01/monki-gras-the-curb-cut-effect/
 
 This slot was meant to be a talk entitled "Extracting tabular data from PDFs",
 but the speaker didn't turn up. A couple of alternative talks were proposed
@@ -412,6 +419,8 @@ PyCon UK to keep his son, Luke, company, but he's definitely a part of the
 community now, and the AGM brought him on to the board of trustees. Also, he
 introduced me to more than one person from Cambridge who I didn't know!
 
+Oh, and somehow our table won the quiz!
+
 Things I regret missing
 -----------------------
 
@@ -437,6 +446,8 @@ Sunday
 ---------------------------------------------------------------------
 
 *Keynote* https://www.youtube.com/watch?v=g68eJwauOww
+
+https://slides.com/cheukting_ho/do-we-have-a-diversity-problem-in-python-community
 
 This was a repeat of a keynote from PyLondinium (by the way, I like the fact
 that several items were repeats from that conference, as I think the audience
@@ -490,6 +501,8 @@ bluetooth.
 --------------------------------------------------------------------------------------------------
 
 https://www.youtube.com/watch?v=qkGxy4c64Jg
+
+https://speakerdeck.com/yeray/import-as-an-antipattern-demystifying-dependency-injection-in-python
 
 This was a very nicely done talk. It's also interesting how Alex Chan's talk
 on sans I/O programming addresses a subset of the concerns of this talk.
@@ -593,7 +606,8 @@ I definitely wanted to go to Thomas Kluyver's "What does PEP 517 mean for
 packaging?", as it's an important part of the progress that Python is trying to
 make in its packaging story. The "Dash" talk just won out, and it wil be
 interesting to watch the video for this to see if I made the right choice.
-https://www.youtube.com/watch?v=s5lJsFzv_iI
+https://www.youtube.com/watch?v=s5lJsFzv_iI and
+https://www.slideshare.net/takluyver/python-packaging-how-did-we-get-here-and-where-are-we-going
 
 Since I don't have any notes between the keynote and the "Dash" talk, I think
 I must have been talking to people - that's always a good choice!
@@ -602,6 +616,8 @@ I sort-of regret not going to the Code Dojo, because I've not been to a London
 style code dojo before, and because people who did go reported it as great
 fun. But I was definitely beginning to lag by this point, and it was nice just
 to go out to dinner somewhere away from the conference.
+
+(The repository with what people did in the dojo is at https://github.com/PyconUK/dojo19.)
 
 ------------------------------------------------------------------------------
 
@@ -641,6 +657,8 @@ Two groups actually managed to make complete stories, with illustrations: one
 on how to pet a cat (all the pictures of the same cat!), and one on how to get
 to the conference from the railways station (including getting lost near the
 castle). Both of those were very effective.
+
+Hannah's write up is at https://raspberrycheesecake.github.io/renpy.html
 
 *Vishnu Anirudh* - Managing Big Data in Machine Learning projects
 -----------------------------------------------------------------
@@ -735,8 +753,7 @@ Apologies if I missed anything, or got names wrong.
 
 * Thomas Kluyver: (borg backup) content addressable
   storage. https://www.borgbackup.org/. Looks interesting.
-* Little Anonymous: Python mailing system: I wrote puubin.io, but that doesn't
-  seem to exist.
+* Little Anonymous: Python mailing system: https://pyuubin.io/
 * Turn on SSL and verify certs
 * John Chandler: Everything I've learnt from Russell Winder talks, in 5
   minutes (A tribute). Very nice if you know Russell, who wasn't at the
@@ -772,7 +789,8 @@ won out. https://www.youtube.com/watch?v=aYSVceNyJ201g
 I didn't really consider going to Daniele Procida's "The worlds' cheapest,
 simplest plotter" (and it clashed with the workshop), but the reports of it
 were good (heh, any Daniele talk is likely to be good), so I shall watch it on
-video. https://www.youtube.com/watch?v=u4Jh1daCl60
+video. https://www.youtube.com/watch?v=u4Jh1daCl60. There's also
+https://brachiograph.readthedocs.io/ and https://github.com/evildmp/BrachioGraph
 
 I would also quite like to have seen Carlo Pereira Atencio's talk on "An
 Introduction to Hardware Drived in (Micro)Python". https://www.youtube.com/watch?v=0HQ-zPbuWg4
@@ -798,6 +816,40 @@ kimchi, and edible flowers) which was both interesting and something I'd order
 again.
 
 .. _`The Stable`: https://cardiff.stablepizza.com/
+
+Just for interest, I note that Alex Chan put the planned sprints up on the
+conference slack:
+
+* Pretalx with Tobias/Owen – the tool used to choose talks and create the conference schedule
+* TickTalk with David – drop-in structured conversations, based on a Friday lightning talk
+* Music workshop with Sandy – musical knowledge useful but not required
+* Packaging with Thomas – help to get your code up on PyPI
+* Brachiograph for Daniele – creating a tiny plotter using Python and cheap household materials
+* Come to PyCon Africa with Daniele/Vince – half an hour of conversation after lunch about what it’s like to attend and African PyCon
+* Volunteer at PyCon UK – similar conversation for PyCon UK
+* Cables and capture sprint – treasure hunt time! Find all the cables around the venue, bring them back to the Assembly Hall. Also: help improve the software used to upload videos to YouTube.
+* Trans Code in Room I – creating tools that are helpful for the LGBTQUIAP+ community. Allies welcome.
+* Wasabi 2D with Daniel – game framework for education purposes, writing simple games + flushing out bugs
+* Raspberry Pi things with Ben – including gpiozero (library used to interact with GPIO pins) and piwheels (building ARM Python packages for RPi users)
+* A starter motor for students with Gail – creating resources for university students
+* Command-line tools with Gil – mini-workshop on CLI tools like the Git command-line. Half an hour or so.
+* PyPy with Ronan – implementing new features for Python 3.7 in PyPy with one of the core devs
+* Neural network research with Michal
+* Getting a new project up on GitHub with Andrew
+* Some stuff with Django and tourism (sorry, I didn’t catch the name)
+* Sprinting on Django itself with Ian
+* Django app for matching free world penpals with incarcerated LGBTQ+/HIV positive people with Dawn
+* Command-line program to automate something for a university supervisor
+
+That may or may not be the same as what happened, of course.
+
+Oh, and other future conferences:
+
+* EuroSciPy 2020, Bilbao, 27-21 July
+* PyCon Italia 2020, Florence, 2-5 April
+* PyCon Lithuania 2020, Vilnius, 23-25 May
+* PyCon NA 2020, Windhoek, 18-20 February
+
 
 ------------------------------------------------------------------------------
 
