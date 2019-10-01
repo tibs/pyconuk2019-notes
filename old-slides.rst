@@ -25,7 +25,7 @@ Expanding on those:
 * Networking: it's a good place to make contacts within the Python
   community, and possibly withone one's own field as well. This also
   includes recruitment (the last several UK Python conferences have had
-  specific recrtuitment sessions, and of course sponsorship acts as
+  specific recruitment sessions, and of course sponsorship acts as
   advertising)
 
 * Socialising: it's nice to meet people you've got to know at previous
@@ -34,7 +34,7 @@ Expanding on those:
 
 * Validation: there's a grand sense of "I'm doing the right thing" gained
   from going to a conference of people doing the same sort of thing
-  (whether if be programming C, programming Python, or building embedded
+  (whether it be programming C, programming Python, or building embedded
   systems and doing device bring up). This can revitalise your involvement
   with what you're doing, and boost enthusiasm in general. Which is a Good
   Thing, and I think should not be underestimated.
@@ -55,9 +55,9 @@ Some History
 
 * **ACCU Apr 2002**: Heritage Motor Centre, Gaydon
   - "including the Python UK Conference"
-* *ACCU Apr 2003*
+* ACCU Apr 2003
 * **ACCU Apr 2004**: Oxford, with a 2 day Python track
-* *ACCU Apr 2005*
+* ACCU Apr 2005
 * **ACCU Apr 2006**: Oxford, 2 day Python track
   - Guido van Rossum as keynote speaker
 
@@ -75,11 +75,6 @@ ACCU Apr 2002:
 * https://mail.python.org/pipermail/python-uk/2002-February/000167.html
 * https://mail.python.org/pipermail/python-uk/2002-February/000168.html
 * http://www.gossamer-threads.com/lists/python/python/94742#94742
-
-----
-
-History: PyConUK
-================
 
 The *actual* UK Python conferences were started by John Pinner and the West
 Midlands Group.
@@ -106,4 +101,4 @@ of such things ended up "running" it!).
 
 2014 was John Pinner's last PyConUK.
 
-I got funded in 2014, 2015 and 2016 by Velocix/ALU/Nokia
+I got funded in 2014, 2015 and 2016 by Velocix/ALU/Nokia.
