@@ -66,7 +66,7 @@ specific items on the program. I'm fairly sure of the last, because of
 Guido being a keynote speaker. I *think* the middle one is the right year,
 I know I wasn't at 2003, and I don't think I got to 2005.
 
-ACCU is/was relatively expensive, so I'd only go for the a couple of days.
+ACCU is/was relatively expensive, so I'd only go for a couple of days.
 
 I got partially funded for 2002.
 
