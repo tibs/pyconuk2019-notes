@@ -79,12 +79,15 @@ ACCU Apr 2002:
 The *actual* UK Python conferences were started by John Pinner and the West
 Midlands Group.
 
-* **PyConUK 2007** and **2008**: September, Birmingham Conservatoire
+* **PyCon UK 2007** and **2008**: September, Birmingham Conservatoire
 * **Python Unconference**: one day, September 2010, Birmingham
 * **EuroPython 2009** and **2010**: June/July, Birmingham Conservatoire
 * **Floss UK**: one day only, October 2010, Birmingham BMI
-* **PyConUK 2011 to 2015** were in the TechnoCenter, Coventry
-* **PyConUK 2016** moved to Cardiff
+* **PyCon UK 2011 to 2015** were in the TechnoCenter, Coventry
+* **PyCon UK 2016** moved to Cardiff
+* **PyCon UK 2017**
+* **PyCon UK 2018**
+* **PyCon UK 2019**
 
 I got funded in 2010, and my boss and I gave talks - my first talk at a
 PyConUK. https://metaljoe.wordpress.com/2010/07/24/europython-2010/ said:
@@ -101,4 +104,6 @@ of such things ended up "running" it!).
 
 2014 was John Pinner's last PyConUK.
 
-I got funded in 2014, 2015 and 2016 by Velocix/ALU/Nokia.
+I got funded in 2014, 2015 and 2016 by Velocix/ALU/Nokia, and in 2017, 2018 and 2019 by Arm.
+
+PyCon UK 2020 is also expected to be in Cardiff.
