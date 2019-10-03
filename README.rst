@@ -850,16 +850,51 @@ Oh, and other future conferences:
 * PyCon Lithuania 2020, Vilnius, 23-25 May
 * PyCon NA 2020, Windhoek, 18-20 February
 
-
 ------------------------------------------------------------------------------
 
 CamPUG meetup
 =============
 
 The October meeting of the Cambridge Python User Group (CamPUG, Tuesday 1st
-October, https://www.meetup.com/CamPUG/events/265064979/) will be partly a
-retrospective on PyCon UK; those of us who attended can compare notes, and
-those who did not can learn why they would like to have been there.
+October, https://www.meetup.com/CamPUG/events/265064979/) was partly a
+retrospective on PyCon UK; those of us who attended compared notes, and those
+who did not got to hear a bit about why they might have wanted to have been
+there.
+
+------------------------------------------------------------------------------
+
+Addendum
+========
+
+And, of course, there are always the talks you missed because you didn't know
+that you wanted to see them. That's the advantage of talking to others who
+went to the conference, to watching recommendations on social media, and to
+just scrolling through the videos and watching things that don't look
+familiar.
+
+Dr Mary Chester-Kadwell was at the CamPUG meeting, and another attendee
+complimented her on the talk "Code walk this way", which I had not gone to.
+I've since watched it, and recommend it.
+
+I tried to write something clever about why this talk is useful, but in the
+end I'm just going to use the first paragraph of the summary:
+
+    "How can you help Pythonistas learn a new code base more quickly and level
+    up their Python skills? One way is with a 'code walk' — talking through a
+    code base while reading the code together. I will talk about how I like to
+    structure a code walk and its benefits."
+
+and say that the talk is worth doing because it gives good advice on how to do
+just those things, and why you should do so.
+
+`Video of the talk`__ (the sound gets sorted out after the first 3 minutes),
+slides__, video__ of the slides and interactive parts of the presentation, and
+`full transcript`__
+
+__ https://www.youtube.com/watch?v=5VZrCnKLmP8&feature=youtu.be
+__ https://www.youtube.com/watch?v=5VZrCnKLmP8&feature=youtu.be
+__ https://drive.google.com/file/d/1qxxnbc-2AAQdji2HVHhYwvNq9Pg8PtlC/view
+__ https://drive.google.com/file/d/1HDCKRTCc8HIhCq70yjMdyMUV6RmQXzVB/view
 
 --------
 
