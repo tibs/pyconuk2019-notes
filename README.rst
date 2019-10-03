@@ -884,7 +884,7 @@ end I'm just going to use the first paragraph of the summary:
     code base while reading the code together. I will talk about how I like to
     structure a code walk and its benefits."
 
-and say that the talk is worth doing because it gives good advice on how to do
+and say that the talk is worth watching because it gives good advice on how to do
 just those things, and why you should do so.
 
 `Video of the talk`__ (the sound gets sorted out after the first 3 minutes),
